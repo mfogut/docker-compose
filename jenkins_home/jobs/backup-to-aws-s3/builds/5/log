@@ -1,0 +1,22 @@
+Started by user [8mha:////4BMGkg3j4zNuSbeulW5IjFjaD1nGIqcqfegRoL5kSA3FAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mFatih
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws-s3
+[SSH] script:
+MYSQL_DB="testdb"
+MYSQL_DB_HOST="db_host"
+AWS_BUCKET_NAME="mysql-docker-backup"
+MYSQL_SECRET=**********
+AWS_SECRET=**********
+
+/tmp/script.sh $MYSQL_DB_HOST $MYSQL_SECRET $MYSQL_DB $AWS_SECRET $AWS_BUCKET_NAME
+
+[SSH] executing...
+
+The user-provided path /tmp/db-20-49.sql does not exist.
+Uploding your db-20-49.sql backup 
+
+[SSH] completed
+[SSH] exit-status: 255
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

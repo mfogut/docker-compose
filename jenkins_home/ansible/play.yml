@@ -1,0 +1,4 @@
+---
+- hosts: test
+  tasks:
+    - shell: echo Hello Word > /tmp/ansible-file

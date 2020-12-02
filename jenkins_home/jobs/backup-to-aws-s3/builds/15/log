@@ -1,0 +1,20 @@
+Started by user [8mha:////4BMGkg3j4zNuSbeulW5IjFjaD1nGIqcqfegRoL5kSA3FAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mFatih
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws-s3
+[SSH] script:
+MYSQL_DB="testdb"
+MYSQL_DB_HOST="db_host"
+AWS_BUCKET_NAME="test-mysql-backup-bucket"
+MYSQL_SECRET=**********
+AWS_SECRET=**********
+
+/tmp/script.sh $MYSQL_DB_HOST $MYSQL_SECRET $MYSQL_DB $AWS_SECRET $AWS_BUCKET_NAME
+
+[SSH] executing...
+Uploding your db-22-22-19.sql backup 
+Completed 1.8 KiB/1.8 KiB (15.3 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-22-22-19.sql to s3://test-mysql-backup-bucket/db-22-22-19.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

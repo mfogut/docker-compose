@@ -1,0 +1,7 @@
+Started at Wed Dec 02 01:17:11 UTC 2020
+Checking backup-to-aws-s3
+Checking docker-job
+Checking first_job
+Checking jenkins-ansible
+Checking table-users
+Finished at Wed Dec 02 01:17:11 UTC 2020. 7ms

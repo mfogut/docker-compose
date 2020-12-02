@@ -1,0 +1,36 @@
+Started at Wed Dec 02 00:48:59 UTC 2020
+Processing backup-to-aws-s3
+Offering backup-to-aws-s3 to Project Build Discarder
+Processing docker-job
+Offering docker-job to Project Build Discarder
+Processing first_job
+Offering first_job to Project Build Discarder
+Processing jenkins-ansible
+Offering jenkins-ansible to Project Build Discarder
+Processing table-users
+Offering table-users to Project Build Discarder
+Finished at Wed Dec 02 00:48:59 UTC 2020. 7ms
+Started at Wed Dec 02 01:48:59 UTC 2020
+Processing backup-to-aws-s3
+Offering backup-to-aws-s3 to Project Build Discarder
+Processing docker-job
+Offering docker-job to Project Build Discarder
+Processing first_job
+Offering first_job to Project Build Discarder
+Processing jenkins-ansible
+Offering jenkins-ansible to Project Build Discarder
+Processing table-users
+Offering table-users to Project Build Discarder
+Finished at Wed Dec 02 01:48:59 UTC 2020. 1ms
+Started at Wed Dec 02 02:48:59 UTC 2020
+Processing backup-to-aws-s3
+Offering backup-to-aws-s3 to Project Build Discarder
+Processing docker-job
+Offering docker-job to Project Build Discarder
+Processing first_job
+Offering first_job to Project Build Discarder
+Processing jenkins-ansible
+Offering jenkins-ansible to Project Build Discarder
+Processing table-users
+Offering table-users to Project Build Discarder
+Finished at Wed Dec 02 02:48:59 UTC 2020. 2ms
