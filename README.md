@@ -71,7 +71,7 @@
     - insert into info ('Test', 'Test1', 1); --> Populate data to info table.
     - Go to aws console web page and create S3 bucket with default specs.
     - Create AWS User with programatic access to give full access to S3 bucket that we create.
-    - mysqldump -u root -h db_host -p testdb > /tmp/bc.sql --> Backup testdb database to Remote-Server inside /tmp/db.sql
+    - mysqldump -u root -h db_host -p testdb > /tmp/db.sql --> Backup testdb database to Remote-Server inside /tmp/db.sql
     - cat /tmp/db.sql --> Verify bakcup to Remote-Server
     - aws configure
     - aws s3 cp /tmp/db.sql s3://mysql-docker-backup/db.sql --> Copy db.sql file from Remote-Server to back it up AWS S3 bucket.
