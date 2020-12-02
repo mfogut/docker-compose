@@ -97,6 +97,9 @@
     - Add String Parameter for script.sh parameters
     - Build Environment and add AWS_SECRET and MYSQL_SECRET
     - Build Execute shell script on remote host using ssh
+    - Execute shell script on remote host using ssh
+      - Pre build script
+      - /tmp/aws-s3-backup.sh $DB_HOST $DB_PASSWORD $DB_NAME $AWS_SECRET $BUCKET_NAME
 
 # Ansible
 - 1 - mkdir -p jenkins-ansible --> Create jenkins-ansible folder inside jenkins-data
